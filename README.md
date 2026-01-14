@@ -1,4 +1,4 @@
-![Mobicom Logo](pwd_by_mcp_blue "Mobicom Logo")
+![Mobicom Logo](pwd_by_mcp_blue.png "Mobicom Logo")
 
 # Frontend test case
 
