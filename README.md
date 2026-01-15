@@ -15,7 +15,7 @@ Byg det vedhæftede design i en mobilforberedt version, dette kan være en html 
 ## Assets
 
 - [Ikoner](https://xd.adobe.com/view/da74df8e-aae7-4f9a-b7a6-0328c475e9b2-8f27/)
-- [Api](https://xd.adobe.com/view/da74df8e-aae7-4f9a-b7a6-0328c475e9b2-8f27/)
+- [Api](https://exercise.mobicom-pro.com/docs)
 
 ## Design
 
