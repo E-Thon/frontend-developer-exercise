@@ -36,8 +36,7 @@ Det er ikke et krav at designet er pixel-perfect og der må gerne foretages just
   - Vælge mellem driftsmodus
   - Tænde og slukke
 - Statistik
-  - Se forbrug for valgt periode
-  - Vælge mellem ønsket periode (Dag, uge, måned)
-  - Se gennemsnit for sidste år
+  - Se forbrug
+  - Se gennemsnit
 
 Der stilles en testapi til rådighed for at kunne hente og sende data.
