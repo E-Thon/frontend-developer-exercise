@@ -1,4 +1,4 @@
-![Mobicom Logo](pwd_by_mcp_blue.png "Mobicom Logo")
+![Mobicom Logo](https://mobicom-pro.com/wp-content/uploads/2025/01/Mobicom-pro_logotype_blue_w1080.png "Mobicom Logo")
 
 # Frontend test case
 
@@ -13,6 +13,7 @@ _Afleveringen sker ved at indsende link til git-repo med opgaven i til ar@mobico
 Byg det vedhæftede design i en mobilforberedt version, dette kan være en html side.
 
 ## Assets
+
 - [Design](https://xd.adobe.com/view/773f8cb0-5ef2-4b42-8fbc-0f1328a6fbbe-226c/)
 - [Ikoner](https://xd.adobe.com/view/773f8cb0-5ef2-4b42-8fbc-0f1328a6fbbe-226c/)
 - [Api](https://exercise.mobicom-pro.com/docs)
