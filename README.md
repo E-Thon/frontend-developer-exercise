@@ -15,7 +15,7 @@ Byg det vedhæftede design i en mobilforberedt version, dette kan være en html 
 ## Assets
 
 - [Design](https://xd.adobe.com/view/773f8cb0-5ef2-4b42-8fbc-0f1328a6fbbe-226c/)
-- [Ikoner](https://xd.adobe.com/view/773f8cb0-5ef2-4b42-8fbc-0f1328a6fbbe-226c/)
+- [Ikoner](https://github.com/mobicom-pro-aps/frontend-developer-exercise/tree/main/assets/icons)
 - [Api](https://exercise.mobicom-pro.com/docs)
 
 ## Design
