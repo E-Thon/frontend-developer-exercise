@@ -13,8 +13,8 @@ _Afleveringen sker ved at indsende link til git-repo med opgaven i til ar@mobico
 Byg det vedhæftede design i en mobilforberedt version, dette kan være en html side.
 
 ## Assets
-
-- [Ikoner](https://xd.adobe.com/view/da74df8e-aae7-4f9a-b7a6-0328c475e9b2-8f27/)
+- [Design](https://xd.adobe.com/view/773f8cb0-5ef2-4b42-8fbc-0f1328a6fbbe-226c/)
+- [Ikoner](https://xd.adobe.com/view/773f8cb0-5ef2-4b42-8fbc-0f1328a6fbbe-226c/)
 - [Api](https://exercise.mobicom-pro.com/docs)
 
 ## Design
@@ -40,4 +40,4 @@ Det er ikke et krav at designet er pixel-perfect og der må gerne foretages just
   - Vælge mellem ønsket periode (Dag, uge, måned)
   - Se gennemsnit for sidste år
 
-Der stilles en testapi til rådgihed for at kunne hente og sende data.
+Der stilles en testapi til rådighed for at kunne hente og sende data.
