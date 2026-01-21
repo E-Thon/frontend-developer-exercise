@@ -4,9 +4,10 @@
 
 _Dette er en opgave udviklet for at give et indblik i hvordan en opgave i Mobicom-Pro kunne se ud for en frontend-udvikler. Opgaven giver samtidig en mulighed for at gøre sig selv bemærket hos os, da vi altid er på udgik efter engagerede og dygtige kollegaer._
 
-_Der er stilles ikke nogen krav over benyttede teknologier og tredje parts biblioteker må også gerne benyttes._
+_Der stilles ikke nogen krav om benyttede teknologier og tredje parts biblioteker må også gerne benyttes._
 
-_Afleveringen sker ved at indsende link til git-repo med opgaven i til ar@mobicom-pro.com eller ved at tilføje det som en pull-request. Ved at sende en opgave accepterer du at Mobicom-Pro må kontakte dig med henblik på en eventuel ansættelse._
+_Afleveringen sker ved at indsende link til git-repo med opgaven i til:
+ar@mobicom-pro.com eller ved at tilføje det som en pull-request. Ved at sende en opgave accepterer du at Mobicom-Pro må kontakte dig med henblik på en eventuel ansættelse._
 
 ## Opgave
 
@@ -40,4 +41,4 @@ Det er ikke et krav at designet er pixel-perfect og der må gerne foretages just
   - Se forbrug
   - Se gennemsnit
 
-Der stilles en testapi til rådighed for at kunne hente og sende data.
+Der stilles en test-api til rådighed for at kunne hente og sende data.
