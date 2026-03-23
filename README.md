@@ -1,44 +1,36 @@
-![Mobicom Logo](https://mobicom-pro.com/wp-content/uploads/2025/01/Mobicom-pro_logotype_blue_w1080.png "Mobicom Logo")
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-# Frontend test case
+## Getting Started
 
-_Dette er en opgave udviklet for at give et indblik i hvordan en opgave i Mobicom-Pro kunne se ud for en frontend-udvikler. Opgaven giver samtidig en mulighed for at gøre sig selv bemærket hos os, da vi altid er på udgik efter engagerede og dygtige kollegaer._
+First, run the development server:
 
-_Der stilles ikke nogen krav om benyttede teknologier og tredje parts biblioteker må også gerne benyttes._
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-_Afleveringen sker ved at indsende link til git-repo med opgaven i til:
-ar@mobicom-pro.com eller ved at tilføje det som en pull-request. Ved at sende en opgave accepterer du at Mobicom-Pro må kontakte dig med henblik på en eventuel ansættelse._
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Opgave
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Byg det vedhæftede design i en mobilforberedt version, dette kan være en html side.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Assets
+## Learn More
 
-- [Design](https://xd.adobe.com/view/773f8cb0-5ef2-4b42-8fbc-0f1328a6fbbe-226c/)
-- [Ikoner](https://github.com/mobicom-pro-aps/frontend-developer-exercise/tree/main/assets/icons)
-- [Api](https://exercise.mobicom-pro.com/docs)
+To learn more about Next.js, take a look at the following resources:
 
-## Design
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Det ønskes udviklet i til tilknyttede design.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-Det er ikke et krav at designet er pixel-perfect og der må gerne foretages justeringer eller andre mindre ændringsforslag.
+## Deploy on Vercel
 
-## Kravspecs
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-### Tre navigerbare sider
-
-- Forside
-  - Scrollable med fast menubjælke i bund
-- Termostat
-  - Indstilling er temperatur
-  - Visning af temperatur inde og ude
-  - Justering af ventilator
-  - Vælge mellem driftsmodus
-  - Tænde og slukke
-- Statistik
-  - Se forbrug
-  - Se gennemsnit
-
-Der stilles en test-api til rådighed for at kunne hente og sende data.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
