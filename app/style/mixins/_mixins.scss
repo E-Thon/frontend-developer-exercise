@@ -84,10 +84,9 @@
 }
 
 // Grid button
-@mixin grid-button {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  gap: 4rem;
+@mixin flex-button {
+  display: flex;
+  gap: space.$space-md;
   align-items: center;
 }
 
