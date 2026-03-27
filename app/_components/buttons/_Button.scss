@@ -1,0 +1,14 @@
+@use "../../style/placeholders/buttons";
+@use "../../style/variables/spacing" as space;
+@use "../../style/mixins/mixins" as mix;
+
+.button {
+    @extend %btn;
+    @include mix.grid-button;
+    &.blue {
+        @extend %blue-btn;
+    }
+    &.white {
+        @extend %white-btn;
+    }
+}
