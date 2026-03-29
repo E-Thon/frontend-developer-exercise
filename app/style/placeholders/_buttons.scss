@@ -5,21 +5,22 @@
 
 // Base button styles
 %btn {
-  display: inline-block;
+  width: fit-content;
+  height: auto;
   text-decoration: none;
   cursor: pointer;
-  border: none;
   font-weight: typo.$btn-weight;
-  padding: space.$pct-spacing-14 space.$pct-spacing-30 space.$pct-spacing-14 space.$pct-spacing-50;
-  border-radius: 100px;
-  background: none;
-  width: fit-content;
+  font-size: typo.$btn-size;
+  padding: space.$space-2xs;
+  border-radius: space.$radius-md;
   color: color.$white;
   white-space: nowrap;
-  align-self: center;
+  transition: all space.$transition-base;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
   &:hover {
-    opacity: 0.5;
+    opacity: 0.85;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
   }
 
   &:disabled {
@@ -29,10 +30,13 @@
 }
 
 %blue-btn {
-  border: solid 2px color.$border;
-  color: color.$blue-bg;
+  background: color.$blue-bg;
+  color: color.$white;
+  border: 1px solid transparent;
 }
 
 %white-btn {
   background: color.$white-bg;
+  color: color.$grey-text;
+  border: 1px solid color.$border;
 }

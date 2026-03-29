@@ -1,0 +1,48 @@
+@use "../../../style/variables/spacing" as space;
+@use "../../../style/variables/color" as color;
+@use "../../../style/variables/typography" as typo;
+@use "../../../style/placeholders/base";
+@use "../../../style/mixins/mixins" as mix;
+
+
+.settings {
+    @extend %base;
+    @include mix.flex-column;
+    gap: space.$space-md;
+    background-color: color.$white-bg;
+    padding: space.$space-lg;
+    border-radius: space.$radius-lg;
+    box-shadow: 0 10px 60px 2px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+    height: fit-content;
+    
+    h3 {
+        color: color.$grey-text;
+        margin-block: 0;
+    }
+}
+
+.temperature {
+    @include mix.flex-start;
+    align-items: center;
+    gap: space.$space-lg;
+
+    img {
+        color: color.$grey-image !important;
+        width: 12%;
+        height: fit-content;
+    }
+
+    &__temp {
+        font-size: typo.$temp-size;
+        font-weight: typo.$temp-weight;
+        color: color.$grey-text;
+        margin: 0;
+    }
+
+    &__text {
+        font-size: 1.2rem;
+        color: color.$grey-image;
+        margin: 0;
+    }
+}

@@ -1,14 +1,32 @@
 @use "../../style/placeholders/buttons";
 @use "../../style/variables/spacing" as space;
 @use "../../style/mixins/mixins" as mix;
+@use "../../style/variables/color" as color;
 
 .button {
     @extend %btn;
-    @include mix.grid-button;
+    @include mix.flex-button;
+
+    img {
+        height: auto;
+        max-width: 20%;
+    }
+
     &.blue {
         @extend %blue-btn;
+
+        img {
+            color: color.$white !important;
+        }
     }
+
     &.white {
         @extend %white-btn;
+        color: color.$grey-image !important;
+
+         img {
+            color: color.$grey-image !important;
+        }
+
     }
 }

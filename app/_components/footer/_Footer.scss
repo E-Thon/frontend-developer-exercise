@@ -1,0 +1,32 @@
+@use "../../style/variables/spacing" as space;
+@use "../../style/variables/color" as color;
+@use "../../style/variables/typography" as typo;
+@use "../../style/placeholders/base";
+@use "../../style/mixins/mixins" as mix;
+
+.footer {
+    @extend %base;
+    @include mix.flex-between;
+    color: color.$grey-font;
+    background-color: color.$white-bg;
+    padding: 0 space.$space-xl;
+    cursor: pointer;
+    border-radius: space.$radius-md;
+    transition: all space.$transition-base;
+    box-shadow: 0 -2px 40px rgba(0, 0, 0, 0.1);
+    white-space: nowrap;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+
+    &__icon {
+        padding: 2rem;
+        text-decoration: none;
+        max-width: 100%;
+        img {
+            height: auto;
+            width: 200%;
+        }
+    }
+}

@@ -1,13 +1,20 @@
-import Button from "./_components/buttons/Button";
+import type { Metadata } from "next";
+import Footer from "./_components/footer/Footer";
+import SettingsCard from "./_components/cards/settings/Settings";
+
+export const metadata: Metadata = {
+  title: "Smart Home",
+};
 
 export default function Home() {
   return (
     <div className="app">
-      <Button 
-      text="Instillinger"
-      href="/varme"
-      className="blue"
+      <SettingsCard
+        h3="Varme i Stuen"
+        temp="22 "
+        text="Manuel - mode"
       />
+      <Footer />
     </div>
   );
 }
