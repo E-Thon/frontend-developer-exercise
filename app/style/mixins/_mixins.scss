@@ -31,7 +31,7 @@
 }
 
 // Flex column
-@mixin flex-col {
+@mixin flex-column {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;

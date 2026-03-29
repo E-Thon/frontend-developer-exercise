@@ -22,7 +22,11 @@
 
     &.white {
         @extend %white-btn;
-        color: color.$grey-text !important;
+        color: color.$grey-image !important;
+
+         img {
+            color: color.$grey-image !important;
+        }
 
     }
 }

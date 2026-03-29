@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { roboto } from "./style/fonts/fonts"; 
+import { montserrat } from "./style/fonts/fonts"; 
 import "./globals.scss";
 
 export const metadata: Metadata = {
@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={roboto.variable}>
+    <html lang="en" className={montserrat.variable}>
       <body>{children}</body>
     </html>
   );

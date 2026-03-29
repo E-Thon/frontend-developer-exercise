@@ -9,7 +9,11 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <div className="app">
-      <SettingsCard />
+      <SettingsCard
+        h3="Varme i Stuen"
+        temp="22 "
+        text="Manuel - mode"
+      />
       <Footer />
     </div>
   );

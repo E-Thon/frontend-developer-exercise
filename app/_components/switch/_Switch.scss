@@ -1,0 +1,46 @@
+@use "../../style/variables/color" as color;
+@use "../../style/variables/spacing" as space;
+@use "../../style/mixins/mixins" as mix;
+
+.switch {
+    @include mix.flex-between;
+
+    &__label {
+        font-size: 1.5rem;
+        color: color.$grey-image;
+    }
+
+    &__input {
+        appearance: none;
+        width: 70px;
+        height: 40px;
+        background-color: color.$grey-line;
+        border: none;
+        border-radius: 34px;
+        cursor: pointer;
+        outline: none;
+        transition: background-color space.$transition-base;
+        position: relative;
+        margin-left: auto;
+
+        &:checked {
+            background-color: color.$blue-bg;
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background-color: color.$white;
+            top: 4px;
+            left: 4px;
+            transition: left space.$transition-base;
+        }
+
+        &:checked::before {
+            left: 34px;
+        }
+    }
+}
