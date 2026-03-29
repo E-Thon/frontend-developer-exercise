@@ -1,24 +1,16 @@
-import Button from "./_components/buttons/Button";
+import type { Metadata } from "next";
+import Footer from "./_components/footer/Footer";
+import SettingsCard from "./_components/cards/settings/Settings";
 
 export const metadata: Metadata = {
-  title: "Home",
+  title: "Smart Home",
 };
 
 export default function Home() {
   return (
     <div className="app">
-      <Button
-        image={{
-          src: "/assets/icons/icon_temp-setting.png",
-          alt: "settings icon",
-          imageClassName: "settings",
-          width: 100,
-          height: 100,
-        }}
-        text="Instillinger"
-        href="/varme"
-        className="blue"
-      />
+      <SettingsCard />
+      <Footer />
     </div>
   );
 }
