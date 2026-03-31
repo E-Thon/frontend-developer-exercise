@@ -6,12 +6,12 @@ import Switch from "../../switch/Switch";
 import "./_Settings.scss";
 import { SettingProps } from "@/app/types/settings";
 
-export default function SettingsCard({ h3, temp, text }: SettingProps) {
+export default function SettingsCard({ h3, temp, text, switchLabel }: SettingProps) {
     return (
         <div className="settings">
             <h3>{h3}</h3>
             <Switch
-                label="Lys"
+                label={switchLabel}
                 initialState={false}
                 onChange={() => {}}
             />

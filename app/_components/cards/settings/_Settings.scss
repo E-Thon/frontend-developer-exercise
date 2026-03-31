@@ -8,14 +8,15 @@
 .settings {
     @extend %base;
     @include mix.flex-column;
-    gap: space.$space-md;
+    gap: space.$space-xs;
     background-color: color.$white-bg;
     padding: space.$space-lg;
     border-radius: space.$radius-lg;
     box-shadow: 0 10px 60px 2px rgba(0, 0, 0, 0.1);
     width: fit-content;
     height: fit-content;
-    
+    margin: space.$space-md 0;
+
     h3 {
         color: color.$grey-text;
         margin-block: 0;

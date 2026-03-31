@@ -4,6 +4,8 @@
 
 .switch {
     @include mix.flex-between;
+    margin: space.$space-xs 0;
+    gap: space.$space-xl;
 
     &__label {
         font-size: 1.5rem;

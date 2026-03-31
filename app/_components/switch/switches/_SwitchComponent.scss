@@ -1,0 +1,17 @@
+@use "../../../style/variables/spacing" as space;
+@use "../../../style/variables/color" as color;
+@use "../../../style/placeholders/base";
+@use "../../../style/mixins/mixins" as mix;
+
+
+.switchcomponent {
+    &__switches {
+        margin: space.$space-lg 0;
+
+    }
+
+    h3 {
+        color: color.$grey-text;
+        margin-block: 0;
+    }
+}
